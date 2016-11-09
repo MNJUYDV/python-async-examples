@@ -1,6 +1,6 @@
 def sum_coroutine():
     while True:
-        x, y = (yield)
+        x, y = yield
         print(x + y)
 
 
