@@ -6,8 +6,7 @@ def primes():
 
 def primes_again():
     prime_gen = primes()
-    for prime_number in prime_gen:
-        yield prime_number
+    yield from prime_gen
 
 
 if __name__ == '__main__':
