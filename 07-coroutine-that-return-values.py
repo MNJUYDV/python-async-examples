@@ -1,5 +1,5 @@
 def sum_coroutine():
-    s = yield
+    s = 0
     while True:
         x = yield s
         s += x
